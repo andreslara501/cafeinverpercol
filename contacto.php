@@ -24,7 +24,7 @@
     $headers = "MIME-Version: 1.0\r\n";
     $headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
     $headers .= "From: Contacto pagina < contacto@inverpercol.com >"."\r\n";
-    $bool = mail("contacto@inverpercol.com", $titulo, $mail, $headers);
+    $bool = mail("****@inverpercol.com", $titulo, $mail, $headers);
 
     echo json_encode(array("respuesta" => "enviado"));
 ?>
